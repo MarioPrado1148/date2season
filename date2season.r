@@ -1,9 +1,3 @@
-# Packages dependencies: 
-    # dplyr (between)
-    # lubridate (year)
-
-# Date format: YYYY-MM-DD
-
 get.seasons <- function(dates, hemisphere = "N"){
     year(dates) <- 0
     
